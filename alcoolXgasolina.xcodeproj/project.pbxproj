@@ -12,6 +12,7 @@
 		CE96C1732A603188001E8E38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE96C1712A603188001E8E38 /* Main.storyboard */; };
 		CE96C1752A60318E001E8E38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE96C1742A60318E001E8E38 /* Assets.xcassets */; };
 		CE96C1782A60318E001E8E38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE96C1762A60318E001E8E38 /* LaunchScreen.storyboard */; };
+		CE96C1802A6033FC001E8E38 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CE96C17F2A6033FC001E8E38 /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CE96C1742A60318E001E8E38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE96C1772A60318E001E8E38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE96C1792A60318E001E8E38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE96C17F2A6033FC001E8E38 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		CE96C16C2A603188001E8E38 /* alcoolXgasolina */ = {
 			isa = PBXGroup;
 			children = (
+				CE96C17F2A6033FC001E8E38 /* logo.png */,
 				CE96C16D2A603188001E8E38 /* AppDelegate.swift */,
 				CE96C16F2A603188001E8E38 /* ViewController.swift */,
 				CE96C1712A603188001E8E38 /* Main.storyboard */,
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE96C1802A6033FC001E8E38 /* logo.png in Resources */,
 				CE96C1782A60318E001E8E38 /* LaunchScreen.storyboard in Resources */,
 				CE96C1752A60318E001E8E38 /* Assets.xcassets in Resources */,
 				CE96C1732A603188001E8E38 /* Main.storyboard in Resources */,
