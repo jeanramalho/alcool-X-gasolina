@@ -30,6 +30,9 @@
                                 <state key="normal" title="Calcular">
                                     <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="calcularCombustivel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w5Y-zw-2XQ"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Preço Alcool" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XiV-le-1sM">
                                 <rect key="frame" x="55" y="294" width="115" height="27"/>
@@ -71,6 +74,11 @@
                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="precoAlcoolCampo" destination="oDG-ne-ODE" id="Ir9-Ym-8xa"/>
+                        <outlet property="precoGasolinaCampo" destination="m6C-Be-uZx" id="suU-jO-1e5"/>
+                        <outlet property="resultadoLegenda" destination="odi-dc-7ge" id="fx8-n4-FHr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

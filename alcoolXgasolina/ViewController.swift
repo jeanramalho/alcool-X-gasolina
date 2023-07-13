@@ -10,6 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var resultadoLegenda: UILabel!
+    @IBOutlet weak var precoAlcoolCampo: UITextField!
+    @IBOutlet weak var precoGasolinaCampo: UITextField!
+    
+    @IBAction func calcularCombustivel(_ sender: Any) {
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
